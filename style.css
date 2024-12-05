@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .container-fluid {
+    padding-left: 0 !important;
+    height: 100vh;
+    display: flex;
+  }
+
+  .image-section {
+    background: url('/fintech/img/fundo.png') no-repeat center center/cover;
+    width: 50%;
+  }
+
+  .form-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .form-section h1 {
+    font-weight: bold;
+  }
+
+  .btn-success {
+    width: 100%;
+  }
